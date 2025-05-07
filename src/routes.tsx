@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { JSX } from 'react';
 import { APP_ROUTES } from './appConfig';
 import PHome from './pages/PHome/PHome';
 import PLogin from './pages/PLogin/PLogin';
