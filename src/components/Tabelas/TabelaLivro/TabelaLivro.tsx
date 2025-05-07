@@ -11,6 +11,7 @@ import LivroRequests from '../../../fetch/LivroRequests';
 // Importa o arquivo CSS com estilos específicos para este componente
 import estilo from './TabelaLivro.module.css';
 import LivroDTO from '../../../interfaces/LivroInterface';
+import { APP_ROUTES } from '../../../appConfig';
 
 // Declara o componente funcional TabelaLivro
 function TabelaLivro(): JSX.Element {
@@ -35,6 +36,13 @@ function TabelaLivro(): JSX.Element {
         <main>
             {/* Título da tabela com classe personalizada */}
             <h1 className={estilo['header-tabela-livro']}>Lista de Livros</h1>
+            <a
+                href={APP_ROUTES.ROUTE_CADASTRO_LIVRO}
+                className={estilo['anc-pag-livro']}
+            >
+                CADASTRAR LIVRO
+            </a>
+
 
             {/* Componente DataTable da PrimeReact, responsável por exibir os dados em forma de tabela */}
             <DataTable

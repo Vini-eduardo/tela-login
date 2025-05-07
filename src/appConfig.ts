@@ -12,7 +12,8 @@ export const APP_ROUTES = {
     ROUTE_LISTAGEM_EMPRESTIMOS: '/emprestimos',
     ROUTE_LISTAGEM_LIVROS: '/livros',
 
-    ROUTE_CADASTRO_ALUNO: '/cadastro/aluno'
+    ROUTE_CADASTRO_ALUNO: '/cadastro/aluno',
+    ROUTE_CADASTRO_LIVRO: '/cadastro/livro'
 }
 
 /**
@@ -22,5 +23,5 @@ export const APP_ROUTES = {
  * Qualquer alteração nos endpoints, no endereço do servidor ou porta que forem feitas lá deve ser replicada aqui
  */
 export const SERVER_CFG = {
-    SERVER_URL: 'http://localhost:3333'
+    SERVER_URL: 'http://localhost:3332'
 }
